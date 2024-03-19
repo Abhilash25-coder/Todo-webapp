@@ -1,0 +1,41 @@
+/* CSS for SignUpForm component */
+.login {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login input[type="text"],
+  .login input[type="email"],
+  .login input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    background-color: #0056b3;
+  }
+  

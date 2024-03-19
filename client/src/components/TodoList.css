@@ -1,0 +1,60 @@
+table {
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    width: 50%;
+    border: 0px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+td button:first-child{
+    width: 30%;
+    background-color: rgb(255, 0, 0);
+    opacity:  0.7;
+}
+td button:first-child:hover{
+    background-color: rgb(255, 0, 0);
+    opacity:  1;
+}
+td button{
+    width: 50%;
+    margin-left: 10px;
+    padding: 12px 10px;
+}
+td button:last-child:hover{
+    background-color: #23a92a(0, 255, 42) !important;
+    opacity:  1;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    table thead {
+        display: none;
+    }
+
+    table tr {
+        border-bottom: 3px solid #dddddd;
+        display: block;
+        margin-bottom: 12px;
+    }
+
+    table td {
+        display: block;
+        text-align: right;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
